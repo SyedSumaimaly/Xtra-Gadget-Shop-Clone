@@ -66,7 +66,7 @@
 
 /* Second Section */
 
-.secondSectionMain{
+.secondSectionMain {
     padding-top: 6%;
     padding-bottom: 4%;
 }
@@ -113,6 +113,134 @@
 .secondSectionImg_div:hover div {
     background-color: RGB(2, 37, 84);
     color: white;
+    margin-top: -35px;
     cursor: pointer;
     transition: all 0.5s;
+}
+
+.ThirdSectionMain {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+
+.ThirdSectionColOne {
+    width: 80% !important;
+    height: 100vh;
+    background-image: url(Assets/bg2-1.jpg);
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ThirdSectionColOne p {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: start;
+    color: white;
+    padding-top: 20%;
+    padding-left: 8%;
+}
+
+.ThirdSectionColOne h2 {
+    text-align: start;
+    color: white;
+    width: 50%;
+    padding-left: 8%;
+    font-size: 46px;
+    line-height: 64.4px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    font-family: 'Inter';
+}
+
+.ThirdSectionColOne_SecondPara {
+    text-align: start;
+    color: white;
+    padding-left: 8%;
+    padding-top: 4% !important;
+    width: 50%;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ThirdSectionColOne_btn {
+    color: #08f;
+    background-color: #fff;
+    padding: 13px 15px 13px 15px;
+    margin-top: 30px;
+    vertical-align: middle;
+    border-radius: 40px;
+    width: 25%;
+    margin-left: 8%;
+    font-weight: 690;
+    transition: all 0.5s;
+}
+
+.ThirdSectionColOne_btn:hover {
+    background-color: #041833;
+    color: white;
+}
+
+.ThirdSectionColTwo {
+    background-image: url(Assets/bg3-1.jpg);
+    height: 100vh;
+    border-radius: 50px;
+    background-size: contain;
+}
+
+.ThirdSectionColTwo p {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: start;
+    color: white;
+    padding-top: 20%;
+    padding-left: 8%;
+}
+
+.ThirdSectionColTwo h2 {
+    text-align: start;
+    color: white;
+    width: 50%;
+    padding-left: 8%;
+    font-size: 46px;
+    line-height: 64.4px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    font-family: 'Inter';
+}
+
+.ThirdSectionColTwo_SecondPara {
+    text-align: start;
+    color: white;
+    padding-left: 8%;
+    padding-top: 4% !important;
+    width: 50%;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ThirdSectionColTwo_btn {
+    color: white;
+    background-color: #08f;
+    padding: 13px 15px 13px 15px;
+    margin-top: 30px;
+    vertical-align: middle;
+    border-radius: 40px;
+    width: 25%;
+    margin-left: 8%;
+    font-weight: 690;
+    transition: all 0.5s;
+}
+
+.ThirdSectionColTwo_btn:hover {
+    background-color: white;
+    color: #041833;
 }

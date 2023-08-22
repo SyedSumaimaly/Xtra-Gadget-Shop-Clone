@@ -357,6 +357,72 @@
     padding-top: 5%;
 }
 
+
+/* Seventh Section */
+
+.SeventhSection {
+    background-image: url(Assets/bg-1.jpg);
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 5%;
+}
+
+.emailDiv {
+    background-color: #efffef25;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+.emailInput {
+    width: 70%;
+    outline: none;
+    background-color: transparent;
+    border: transparent;
+}
+
+.emailInput::placeholder {
+    padding-left: 8%;
+}
+
+.Emailbtn {
+    font-size: 13px;
+    font-weight: 400;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #2398ff, #006fd1, #0088ff);
+    padding: 21px 35px;
+    border-radius: 30px;
+    width: 25%;
+    color: white;
+    box-shadow: 0 5px 15px 0 rgba(0, 136, 255, .21);
+}
+
+.SeventhSectionSubDivOne h2 {
+    font-size: 42px;
+    line-height: 58.8px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    color: white;
+}
+
+.SeventhSectionSubDivOne span {
+    color: #006fff;
+}
+
+
+.SeventhSectionSubDivOne p{
+color: #efffff9a;
+font-size: 16px;
+line-height: 32px;
+font-weight: 400;
+}
+
+
+
 /* Footer */
 
 .footerDivOne img {
@@ -410,7 +476,7 @@
 
 .footerTwo {
     padding: 20px 80px;
-    
+
 }
 
 .footerTwoCol p {

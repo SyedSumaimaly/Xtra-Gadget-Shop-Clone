@@ -1,0 +1,65 @@
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbarImage img {
+    width: 40%;
+}
+
+/* First Section */
+
+.FirstSectionMain {
+    padding-top: 5%;
+}
+
+.FirstSection {
+    background-image: url(Assets/bg-1.jpg);
+    border-radius: 50px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.FirstSec_ColTwo_imgDiv {
+    width: 100%;
+}
+
+.FirstSec_ColTwo_imgDiv img {
+    width: 100%;
+}
+
+.FirstSection h2 {
+    color: white;
+    font-size: 54px;
+    line-height: 75.6px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-family: 'Inter';
+
+}
+
+.FirstSection p {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: white;
+    padding-top: 10%;
+}
+
+.FirstSec_ColOne {
+    padding-left: 6%;
+}
+
+.FirstSection h2 span {
+    color: #0081f3;
+}

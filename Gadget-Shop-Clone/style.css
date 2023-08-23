@@ -130,8 +130,8 @@
 /* Second Section */
 
 .secondSectionMain {
-    padding-top: 6%;
-    padding-bottom: 4%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 
 .secondSection {
@@ -149,7 +149,7 @@
 
 .secondSectionImg_div img {
     border-radius: 50%;
-    width: 80%;
+    width: 90%;
 
 }
 
@@ -365,12 +365,17 @@
 
 .viewAllProduct {
     background-color: #08f;
-    padding: 18px 20px 18px 20px;
+    padding: 20px 25px 20px 20px;
     color: white;
     font-weight: 650;
     font-family: 'Inter';
     border-radius: 40px;
     width: 60%;
+}
+
+.viewAllProduct i{
+    font-size: 40px;
+    margin-left: 3%;
 }
 
 .viewAllProduct:hover {
@@ -496,7 +501,11 @@
     padding-top: 5%;
 }
 
-
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Seventh Section */
 

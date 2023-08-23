@@ -14,6 +14,43 @@
     width: 40%;
 }
 
+.nav-link {
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.nav-item {
+    margin: 0 auto;
+}
+
+.nav-link:hover {
+    color: #08f !important;
+}
+
+.firstUl {
+    width: 100%;
+}
+
+.searchDiv {
+    width: 80%;
+    border-radius: 30px;
+}
+
+
+.searchInput {
+    border: transparent !important;
+    outline: none !important;
+    border-radius: 30px;
+}
+
+.searchbtntop {
+    border: none;
+}
+
+.searchbtntop:hover {
+    background-color: transparent;
+}
+
 /* First Section */
 
 .FirstSectionMain {
@@ -62,6 +99,32 @@
 
 .FirstSection h2 span {
     color: #0081f3;
+}
+
+.FirstSectionbtnDiv{
+    padding-top: 18%;
+}
+
+.exploreBtn {
+    color: #fff;
+    background-color: #08f;
+    padding: 13px 30px 13px 30px;
+    border-radius: 30px;
+    font-family: 'Inter';
+}
+
+.exploreBtn:hover {
+    color: white;
+}
+
+.PromotionBtn {
+    color: #0088ff;
+    font-family: 'Inter';
+    margin-left: 5%;
+}
+
+.PromotionBtn:hover {
+    color: white;
 }
 
 /* Second Section */
@@ -279,7 +342,7 @@
 
 .fourthSectionImageDiv p {
     padding-left: 4%;
-font-size: 20px;
+    font-size: 20px;
 }
 
 .rating {
@@ -302,12 +365,17 @@ font-size: 20px;
 
 .viewAllProduct {
     background-color: #08f;
-    padding: 16px 20px 16px 20px;
+    padding: 18px 20px 18px 20px;
     color: white;
     font-weight: 650;
     font-family: 'Inter';
     border-radius: 40px;
     width: 60%;
+}
+
+.viewAllProduct:hover {
+    color: white;
+    background-color: rgb(13, 103, 182);
 }
 
 .fifthSectionMain {
@@ -456,10 +524,11 @@ font-size: 20px;
     outline: none;
     background-color: transparent;
     border: transparent;
+    padding-left: 5%;
 }
 
 .emailInput::placeholder {
-    padding-left: 8%;
+    color: rgba(255, 255, 255, 0.534);
 }
 
 .Emailbtn {

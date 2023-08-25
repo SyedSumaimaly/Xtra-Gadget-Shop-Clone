@@ -1039,6 +1039,28 @@
     .Emailbtn {
         padding: 21px 5px;  
     }
+
+    .fourthSectionMain{
+        padding-top: 5%;
+    }
+
+    .fourthSectionImageDiv{
+        height: 50vh;
+    }
+
+    .footerDivTwo{
+        padding-top: 5%;
+    }
+
+    .footerTwoCol p{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .footerTwo {
+        padding: 15px 30px;
+    
+    }
 }
 
 @media (max-width: 970px) {  
@@ -1056,4 +1078,37 @@
         width: 30%;
     }
 
+}
+
+@media (max-width: 300px){
+    .fourthSectionMain{
+        padding-top: 8%;
+    }
+
+    .fourthSectionImageDiv{
+        height: 40vh;
+    }
+
+    .footerTwoCol p{
+        font-size: 10px;
+    }
+
+    .footerTwo {
+        padding: 10px 20px;
+    
+    }
+}
+
+@media (max-width: 400px){
+    .fourthSectionMain{
+        padding-top: 5%;
+    }
+
+    .fourthSectionImageDiv{
+        height: 45vh;
+    }
+
+    .footerDivTwo{
+        padding-top: 5%;
+    }
 }
